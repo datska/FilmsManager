@@ -1,14 +1,14 @@
 package ru.netology.javaqa;
 
-public class FilmsManager {
+public class MoviesManager {
     private String[] movies = new String[0];
     private int limit;
 
-    public FilmsManager() {
+    public MoviesManager() {
         limit = 10;
     }
 
-    public FilmsManager(int limit) {
+    public MoviesManager(int limit) {
         this.limit = limit;
 
     }

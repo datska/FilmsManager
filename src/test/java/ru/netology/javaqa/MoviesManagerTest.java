@@ -1,14 +1,13 @@
 package ru.netology.javaqa;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class FilmsManagerTest {
+public class MoviesManagerTest {
     @Test
     public void test() {
-        FilmsManager manager = new FilmsManager();
+        MoviesManager manager = new MoviesManager();
         manager.add("First");
         manager.add("Second");
         manager.add("Third");
@@ -21,7 +20,7 @@ public class FilmsManagerTest {
 
     @Test
     public void test2() {
-        FilmsManager manager = new FilmsManager(10);
+        MoviesManager manager = new MoviesManager(10);
         manager.add("First");
         manager.add("Second");
         manager.add("Third");
