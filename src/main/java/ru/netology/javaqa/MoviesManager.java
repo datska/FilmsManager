@@ -5,6 +5,7 @@ public class MoviesManager {
     private int limit;
 
     public MoviesManager() {
+
         limit = 10;
     }
 
@@ -23,6 +24,7 @@ public class MoviesManager {
     }
 
     public String[] findAll() {
+
         return movies;
     }
 
